@@ -1,7 +1,9 @@
 #!/bin/bash
-echo "sailu: hi suji good morning"
-echo "suji: hi sailu very good morning"
-echo "sailu: ho are you suji..?"
-echo "suji: i'm fine sailu what about you..?"
-echo "sailu: i'm also good suji what else..?"
-echo "suji:nothing sailu"
+person1=sailu
+person2=suji
+echo "$person1: hi $person2 good morning"
+echo "$person2: hi $person1 very good morning"
+echo "$person1: how are you $person2..?"
+echo "$person2: i'm fine $person1 what about you..?"
+echo "$person1: i'm also good $person2 what else..?"
+echo "$person2:nothing $person1"
