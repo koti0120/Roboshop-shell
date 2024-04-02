@@ -60,6 +60,10 @@ curl -L -o /tmp/user.zip https://roboshop-builds.s3.amazonaws.com/user.zip &>> $
 
 VALIDATE $? "downloading user file"
 
+cd /app &>> $LOGFILE
+
+VALIDATE $? "change the directory"
+
 unzip -o /tmp/user.zip &>> $LOGFILE
 
 VALIDATE $? "unzipping user file"
